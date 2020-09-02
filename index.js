@@ -56,7 +56,7 @@ if(message.content.toLowerCase() === "selam") {
       message.react("😂")
 	})
 }
- /*
+ 
   if(message.content.toLowerCase() === prefix + "rain") {
      message.guild.createRole({
             name: 'Rainbow',
@@ -74,7 +74,7 @@ if(message.content.toLowerCase() === "selam") {
 	message.channel.send("<@710202839154295107> <== Seni çağırıyorlar bakar mısın? ").then(message => {
       message.react("🤦")
 	})
-}*/
+}
 
   //if(message.content.toLowerCase() === prefix + "gg") {
   //message.react("😃")
