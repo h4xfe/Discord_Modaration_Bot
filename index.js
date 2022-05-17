@@ -37,16 +37,6 @@ var server;
 var channel;
 client.on("message", message => {
   
-if(message.content.toLowerCase() ==="kaşar"){
-  message.react("🧀")
-  setTimeout(function (){
-    message.react("🧀")
-  },1*2000)
-  message.channel.send("<@290170789670551552> Sana seslendiler bak la").then(message => { 
-    message.react("🧀")
-  })
-}
-  
 if(message.content.toLowerCase() === "selam") {
 	message.react("😂")
 	setTimeout(function () {
@@ -66,16 +56,6 @@ if(message.content.toLowerCase() === "selam") {
       })
   }
   
-  if(message.content.toLowerCase() === "aysıla") {
-	message.react("🤦")
-	setTimeout(function () {
-           message.react("🤦")
-		},1 * 2000)
-	message.channel.send("<@710202839154295107> <== Seni çağırıyorlar bakar mısın? ").then(message => {
-      message.react("🤦")
-	})
-}
-
   //if(message.content.toLowerCase() === prefix + "gg") {
   //message.react("😃")
   //   for(channel = 0; channel < 1; channel++) {
